@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  appearance: none;
+  border: none;
+  line-height: normal;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+  background: linear-gradient(180deg, #f3f3f3 0%, white 0%, #f8f8f8 100%);
+}
+
+button {
+  cursor: pointer;
+}
+
+.list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.list-item img {
+  width: 24px;
+  height: 24px;
+}
+.list-item span {
+  width: 100%;
+}
+
+/*# sourceMappingURL=listItem.css.map */

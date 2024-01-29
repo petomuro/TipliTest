@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  appearance: none;
+  border: none;
+  line-height: normal;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+  background: linear-gradient(180deg, #f3f3f3 0%, white 0%, #f8f8f8 100%);
+}
+
+button {
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+}
+.button-small {
+  height: 40px;
+  padding: 0 16px;
+  font-size: 14px;
+}
+.button-large {
+  height: 56px;
+  padding: 24px 16px;
+  align-self: stretch;
+  font-size: 16px;
+}
+.button-solid-orange {
+  border: none;
+  background: #ec7700;
+  color: white;
+}
+.button-solid-orange:hover {
+  background-color: #e45d13;
+}
+.button-outline-transparent {
+  border: 1px solid #54565a;
+  background: white;
+  color: black;
+}
+.button-outline-transparent:hover {
+  background-color: #f7f7f7;
+}
+
+/*# sourceMappingURL=baseButton.css.map */

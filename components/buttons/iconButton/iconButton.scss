@@ -1,0 +1,28 @@
+@use "../../../assets/css/colors" as *;
+@use "../../../assets/css/global";
+
+.button {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 3px;
+
+  &-outline-transparent {
+    border: 1px solid $grey-3;
+    background: white;
+    color: black;
+
+    &:hover {
+      background-color: darken(white, 3%);
+    }
+
+    img {
+      width: 24px;
+      height: 24px;
+      flex-shrink: 0;
+    }
+  }
+}

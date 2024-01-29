@@ -1,0 +1,23 @@
+@use "colors" as *;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  appearance: none;
+  border: none;
+  line-height: normal;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+  background: $gradient-1;
+}
+
+button {
+  cursor: pointer;
+}

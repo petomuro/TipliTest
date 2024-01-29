@@ -1,0 +1,18 @@
+@use "../../../assets/css/colors" as *;
+@use "../../../assets/css/global";
+
+.list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+
+  span {
+    width: 100%;
+  }
+}

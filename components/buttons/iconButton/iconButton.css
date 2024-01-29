@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  appearance: none;
+  border: none;
+  line-height: normal;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+  background: linear-gradient(180deg, #f3f3f3 0%, white 0%, #f8f8f8 100%);
+}
+
+button {
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 3px;
+}
+.button-outline-transparent {
+  border: 1px solid #d9d9d9;
+  background: white;
+  color: black;
+}
+.button-outline-transparent:hover {
+  background-color: #f7f7f7;
+}
+.button-outline-transparent img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+/*# sourceMappingURL=iconButton.css.map */

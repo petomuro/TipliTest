@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  appearance: none;
+  border: none;
+  line-height: normal;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+  background: linear-gradient(180deg, #f3f3f3 0%, white 0%, #f8f8f8 100%);
+}
+
+button {
+  cursor: pointer;
+}
+
+.input {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+}
+.input-large {
+  height: 56px;
+  padding: 12px 16px;
+  align-self: stretch;
+  font-size: 16px;
+}
+.input-outline-transparent {
+  border: 1px solid #47566e;
+  background: white;
+  color: black;
+}
+.input-outline-transparent:focus {
+  background-color: #f7f7f7;
+  outline: none;
+  border-color: #ec7700;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+/*# sourceMappingURL=baseInput.css.map */

@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+      Cashback portál Tipli - Získejte peníze z online nákupů | Tipli
+    </title>
+    <link
+      href="assets/favicons/favicon-32x32.png"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link
+      href="assets/favicons/favicon-16x16.png"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo-container">
+        <a href="#" title="Tipli">
+          <img
+            alt="Tipli Logo"
+            class="navbar-logo"
+            src="assets/images/tipli-original.svg"
+          />
+        </a>
+      </div>
+
+      <div class="navbar-buttons">
+        <base-button
+          button-action="alert('Button clicked!');"
+          button-label="Přihlásit se"
+          button-style="button-outline-transparent"
+        >
+        </base-button>
+
+        <base-button
+          button-action="alert('Button clicked!');"
+          button-label="Založit účet"
+          button-style="button-solid-orange"
+        >
+        </base-button>
+      </div>
+    </nav>
+
+    <main>
+      <div class="content-container">
+        <div class="content-container-first-section">
+          <div class="text-section">
+            <base-label
+              font="bold 48px Roboto, sans-serif"
+              id="text-section-title"
+              label-text="Dostávejte peníze zpět <br> <span style='color: black'>z nákupů v eshopech</span>"
+              text-color="$orange"
+            >
+            </base-label>
+
+            <div class="text-container">
+              <list-item
+                font="20px Roboto, sans-serif"
+                icon-alt="Checkmark Icon"
+                icon-src="assets/icons/checkmark.svg"
+                text-color="black"
+                text-content="Peníze vám vráti přes <strong>1 400 eshopů</strong> až do výše <strong>26,9 %<strong/> z nákupu"
+              >
+              </list-item>
+
+              <list-item
+                font="20px Roboto, sans-serif"
+                icon-alt="Checkmark Icon"
+                icon-src="assets/icons/checkmark.svg"
+                text-color="black"
+                text-content="Navíc získate přístup k exkluzívním nabídkam a slevovým kupónům"
+              >
+              </list-item>
+
+              <list-item
+                font="20px Roboto, sans-serif"
+                icon-alt="Checkmark Icon"
+                icon-src="assets/icons/checkmark.svg"
+                text-color="black"
+                text-content="Jednoduché a úplně zdarma"
+              >
+              </list-item>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <div class="info-container">
+              <base-label
+                font="16px Roboto, sans-serif"
+                id="info-container-text"
+                label-text="<strong>+ 300 Kč</strong> BONUS K Novému účtu"
+                text-color="white"
+              >
+              </base-label>
+            </div>
+
+            <div class="form-container">
+              <div class="title">
+                <base-label
+                  font="20px Roboto, sans-serif"
+                  label-text="Začněte získavat peníze zpět"
+                  text-color="$grey-0"
+                >
+                </base-label>
+              </div>
+
+              <div class="form">
+                <div class="interactions">
+                  <base-input
+                    input-placeholder="Zadejte váš email"
+                    input-size="input-large"
+                    input-style="input-outline-transparent"
+                    style="width: 100%"
+                  >
+                  </base-input>
+
+                  <base-button
+                    button-action="alert('Button clicked!');"
+                    button-label="Založit účet ZDARMA"
+                    button-size="button-large"
+                    button-style="button-solid-orange"
+                    style="width: 100%"
+                  >
+                  </base-button>
+                </div>
+
+                <div class="other-interactions">
+                  <base-label
+                    font="14px Roboto, sans-serif"
+                    label-text="nebo se zaregistrujte pomocí svého účtu"
+                    text-color="$grey-0"
+                  >
+                  </base-label>
+
+                  <div class="other-interactions-container">
+                    <div class="third-parties-register">
+                      <icon-button
+                        button-action="alert('Button clicked!');"
+                        button-style="button-outline-transparent"
+                        image-alt="Facebook Icon"
+                        image-src="assets/icons/facebook.svg"
+                      >
+                      </icon-button>
+
+                      <icon-button
+                        button-action="alert('Button clicked!');"
+                        button-style="button-outline-transparent"
+                        image-alt="Apple Icon"
+                        image-src="assets/icons/apple.svg"
+                      >
+                      </icon-button>
+
+                      <icon-button
+                        button-action="alert('Button clicked!');"
+                        button-style="button-outline-transparent"
+                        image-alt="Google Icon"
+                        image-src="assets/icons/google.svg"
+                      >
+                      </icon-button>
+                    </div>
+
+                    <base-label
+                      font="12px Roboto, sans-serif"
+                      label-text="Registrací souhlasíte s podmínkami užití a <br> se <a href='#' title='GDPR' style='color: #47566e;'>zpracováním osobních údajů.</a>"
+                      style="text-align: center"
+                      text-color="$grey-2"
+                    >
+                    </base-label>
+
+                    <base-label
+                      font="12px Roboto, sans-serif"
+                      label-text="Máte již účet? <a href='#' title='Login' style='color: #ec7700;'><span>Přihlaste se</span></a>"
+                      text-color="$grey-0"
+                    >
+                    </base-label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="rating-section">
+            <img alt="Facebook Icon" src="assets/icons/facebook.svg" />
+
+            <div class="rating-container">
+              <div class="stars">
+                <img alt="Star Icon" class="star" src="assets/icons/star.svg" />
+                <img alt="Star Icon" class="star" src="assets/icons/star.svg" />
+                <img alt="Star Icon" class="star" src="assets/icons/star.svg" />
+                <img alt="Star Icon" class="star" src="assets/icons/star.svg" />
+                <img
+                  alt="Half Star Icon"
+                  class="star"
+                  src="assets/icons/halfStar.svg"
+                />
+              </div>
+
+              <base-label
+                font="14px Roboto, sans-serif"
+                label-text="<strong style='color: black;'>4,8/5</strong> (1 tis. hodnocení)"
+                text-color="$grey-1"
+              >
+              </base-label>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-container-mascot"></div>
+      </div>
+    </main>
+
+    <script src="assets/js/main.js" type="module"></script>
+    <script src="components/buttons/baseButton/baseButton.js"></script>
+    <script src="components/buttons/iconButton/iconButton.js"></script>
+    <script src="components/inputs/baseInput/baseInput.js"></script>
+    <script
+      src="components/labels/baseLabel/baseLabel.js"
+      type="module"
+    ></script>
+    <script src="components/lists/listItem/listItem.js" type="module"></script>
+  </body>
+</html>
